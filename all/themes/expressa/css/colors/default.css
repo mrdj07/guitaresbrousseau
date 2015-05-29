@@ -1,0 +1,18 @@
+.menu-wrap, .main-menu-nav, #highlight, #scroll-menu,
+.view-popular-tags a:hover,
+.store-carousel-navigation a,
+.store-featured-carousel-navigation a,  
+.portfolio-carousel-navigation a,
+.main-menu-nav .menu ul li:hover,
+.portfolio-project-button,
+.ei-title h2 {
+	background: #f45721;
+}
+
+.caroufredsel_wrapper .store-item:hover {
+	border-bottom: 2px solid #f45721 !important;
+}
+
+#services .span3:hover i {
+	color: #f45721;
+}

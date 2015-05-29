@@ -1,0 +1,29 @@
+.menu-wrap, .main-menu-nav, #highlight, #scroll-menu,
+.view-popular-tags a:hover,
+.store-carousel-navigation a, 
+.portfolio-carousel-navigation a,
+.main-menu-nav .menu ul li:hover,
+.portfolio-project-button,
+.store-item input[type="submit"],
+.ei-title h2 {
+	background: rgb(228, 56, 56);
+}
+
+.menu-wrap, .main-menu-nav, #highlight, #scroll-menu,
+.view-popular-tags a:hover,
+.store-carousel-navigation a,
+.store-featured-carousel-navigation a,  
+.portfolio-carousel-navigation a,
+.main-menu-nav .menu ul li:hover,
+.portfolio-project-button,
+.ei-title h2 {
+	background: rgb(228, 56, 56);
+}
+
+.caroufredsel_wrapper .store-item:hover {
+	border-bottom: 2px solid rgb(228, 56, 56) !important;
+}
+
+#services .span3:hover i {
+	color: rgb(228, 56, 56);
+}

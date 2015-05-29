@@ -1,0 +1,9 @@
+{
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "config": {
+        "autoloader-suffix": "ComposerManager",
+        "vendor-dir": "D:\\sites\\brousseau/sites/all/libraries/composer"
+    }
+}

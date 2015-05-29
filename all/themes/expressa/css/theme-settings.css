@@ -1,0 +1,61 @@
+.form-item  {margin-top: 8px !important; margin-left: 10px !important;}
+
+.form-type-textfield input {width: 40% !important;}
+
+.fieldset-legend, .options_header {width: 100%;}
+
+#edit-background-select {
+	color: transparent;
+	font-size: 30px;
+}
+
+#edit-heading-background-select {
+	color: transparent;
+	font-size: 30px;
+}
+
+label[for=edit-background-select-brushed-alu] {
+	background-image: url('../images/backgrounds/brushed_alu.png');
+}
+
+label[for=edit-background-select-gplaypattern] {
+	background-image: url('../images/backgrounds/gplaypattern.png');
+}
+
+label[for=edit-background-select-retina-wood] {
+	background-image: url('../images/backgrounds/retina_wood.png');
+}
+
+label[for=edit-background-select-grey] {
+	background-image: url('../images/backgrounds/grey.png');
+}
+
+label[for=edit-background-select-noisy-grid] {
+	background-image: url('../images/backgrounds/noisy_grid.png');
+}
+
+label[for=edit-background-select-cartographer] {
+	background-image: url('../images/backgrounds/cartographer.png');
+}
+
+label[for=edit-background-select-grunge-wall] {
+	background-image: url('../images/backgrounds/grunge_wall.png');
+}
+
+label[for=edit-background-select-illusion] {
+	background-image: url('../images/backgrounds/illusion.png');
+}
+
+label[for=edit-background-select-nistri] {
+	background-image: url('../images/backgrounds/nistri.png');
+}
+
+label[for=edit-background-select-dark-wood] {
+	background-image: url('../images/backgrounds/dark_wood.png');
+}
+
+.form-wrapper {min-height: 20px;}
+
+.fieldset-legend {cursor: pointer;}
+
+

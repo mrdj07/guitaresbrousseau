@@ -1,0 +1,66 @@
+name = Expressa
+description = A Multi-Purpose Drupal Commerce Theme. 
+core = 7.x
+engine = phptemplate
+version = 1.x 
+
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
+stylesheets[all][] = bootstrap/css/bootstrap-responsive.min.css
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/prettyPhoto.css
+stylesheets[all][] = css/expressa-default.css
+stylesheets[all][] = css/switch.css
+
+scripts[] = bootstrap/js/bootstrap.min.js
+scripts[] = js/easing.js
+scripts[] = js/jquery.carouFredSel-6.1.0.js
+scripts[] = js/mobile-map.js
+scripts[] = js/jflickrfeed.min.js
+scripts[] = includes/twitter/jquery.tweet.js
+scripts[] = js/jquery.ui.totop.js
+scripts[] = js/jquery.prettyPhoto.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/jquery.nicescroll.min.js
+scripts[] = js/jquery.touchSwipe.js
+scripts[] = js/superfish.js
+scripts[] = js/hoverIntent.js
+scripts[] = js/jquery.isotope.js
+scripts[] = js/jquery.flexslider-min.js
+scripts[] = js/expressa.js
+scripts[] = js/style_switch.js
+
+; Define header block regions.
+regions[header] = Header
+
+regions[header_right_top_left] = Header Right Top Left
+regions[header_right_top_right] = Header Right Top Right
+regions[header_right_bottom] = Header Right Bottom
+regions[branding] = Branding
+regions[menu] = Menu
+regions[menu_social] = Menu Social
+
+; Define content block regions.
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[after_content] = After Content
+regions[highlight] = Highlight
+
+; Define footer block regions.
+regions[footer_col_1] = Footer Column 1
+regions[footer_col_2] = Footer Column 2
+regions[footer_col_3] = Footer Column 3
+regions[footer_col_4] = Footer Column 4
+regions[footer_bottom_left] = Footer Bottom Left
+regions[footer_bottom_right] = Footer Bottom Right
+
+; Define theme settings default values.
+settings[breadcrumbs] = '1'
+
+settings[scroll_menu] = '1'
+settings[body_background_color] = 'ECECEC'
+
+settings[site_layout] = 'boxed'
+settings[background_select] = 'brushed_alu'
+settings[color_scheme] = 'orange'

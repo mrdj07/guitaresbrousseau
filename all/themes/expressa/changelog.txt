@@ -1,0 +1,19 @@
+===Expressa Changelog===
+
+1.0.2 (07/16/13)
+  *New "More Items" block template.
+  *Updated Custom Content module.
+  *Style tweaks.
+
+1.0.1 (06/14/13)
+  *Updated Twitter widget, theme settings and docs for Twitter API 1.1 compatibility.
+  *Fixed issue with header tracking code setting.
+  *Fixed JS bug with carousels.
+  *Store carousel images link to single product page.
+  *Fixed comment bug on portfolio nodes.
+  *Removed unecessary h tag theme settings.
+
+1.0 (05/09/13)
+  *Initial release.
+  
+

@@ -1,0 +1,19 @@
+diff --git a/multiblock.module b/multiblock.module
+index aeedc6c..bd81353 100644
+--- a/multiblock.module
++++ b/multiblock.module
+@@ -125,10 +125,12 @@ function multiblock_general() {
+ 
+   // Fetch "Add Instance" form.
+   if (isset($req_block)) {
+-    $form = drupal_render(drupal_get_form('multiblock_add_form', $blocks, $req_block));
++    $get_form = drupal_get_form('multiblock_add_form', $blocks, $req_block);
++    $form = drupal_render($get_form);
+   }
+   else {
+-    $form = drupal_render(drupal_get_form('multiblock_add_form', $blocks));
++    $get_form = drupal_get_form('multiblock_add_form', $blocks);
++    $form = drupal_render($get_form);
+   }
+ 
+   // Get an array of existing blocks.

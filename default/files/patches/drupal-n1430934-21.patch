@@ -1,0 +1,13 @@
+diff --git a/core/modules/file/file.field.inc b/core/modules/file/file.field.inc
+index a46696c..08a6be3 100644
+--- a/core/modules/file/file.field.inc
++++ b/core/modules/file/file.field.inc
+@@ -372,7 +372,7 @@ function file_field_widget_value($element, $input = FALSE, $form_state) {
+     // Checkboxes lose their value when empty.
+     // If the display field is present make sure its unchecked value is saved.
+     if (empty($input['display'])) {
+-      $input['display'] = $element['#display_field'] ? 0 : 1;
++      $input['display'] = intval(empty($element['#display_field']));
+     }
+   }
+ 

@@ -1,0 +1,477 @@
+f<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Expressa - A Multi-Purpose Drupal 7 eCommerce Theme</title>
+	
+	<meta name="description" content="We are Refaktor. Clean code and designs, excellent support.">
+	<meta name="author" content="Refaktor">
+	<meta name="copyright" content="Refaktor">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2013-05-08T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#overview">Overview</a></li>
+			<li><a href="#installation">Installation</a></li>
+			<li><a href="#expressa_content_module">Expressa Content Module</a></li>
+			<li><a href="#sub_theme">Sub-Theme</a></li>
+			<li><a href="#block_regions">Block Regions</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#modules">Modules</a></li>
+			<li><a href="#theme_settings">Theme Settings</a></li>
+			<li><a href="#commerce">Commerce</a>
+				<ol>
+					<li><a href="#commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px"intro_span">Intro</a>
+					<li><a href="#commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px"product_display_span">Product Display</a>
+					<li><a href="#commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"shopping_cart_block_span">Shopping Cart Block</a>
+					<li><a href="#commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"store_page_span">Store Page</a>
+					<li><a href="#commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"payment_methods_span">Payment Methods</a>
+					<li><a href="#commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"product_carousel_span">Product Carousel</a>
+				</ol>
+			</li>
+			<li><a href="#search_api">Search API</a>
+				<ol>
+					<li><a href="#search_api_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"modules_span">Modules</a>
+					<li><a href="#search_api_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"search_server_and_index_span">Search Server and Index</a>
+					<li><a href="#search_api_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"store_view_page_span">Store View Page</a>
+				</ol>
+			</li>
+			<li><a href="#image_slider">Image Slider</a></li>
+			<li><a href="#highlight">Highlight </a></li>
+			<li><a href="#portfolio">Portfolio</a>
+				<ol>
+					<li><a href="#portfolio_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"portfolio_categories_span">Portfolio Categories</a>
+					<li><a href="#portfolio_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"content_type_and_fields_span">Content Type and Fields</a>
+					<li><a href="#portfolio_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"views_span">Views</a>
+				</ol>
+			</li>
+			<li><a href="#widgets">Widgets</a></li>
+			<li><a href="#thank_you">Thank You</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Refaktor 2013<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Expressa</h1><h2>A Multi-Purpose Drupal 7 eCommerce Theme</h2><hr><ul><li>Created: 04/30/13</li><li>latest Update: 05/08/2013</li><li>By: Refaktor</li><li><a href=""></a></li><li>Email: <a href="mailto:&#114;&#101;&#102;&#97;&#107;&#116;&#111;&#114;&#46;&#99;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#101;&#102;&#97;&#107;&#116;&#111;&#114;&#46;&#99;&#111;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li></ul><p>We are Refaktor. Clean code and designs, excellent support.</p></section><section id="overview">
+	<h3>Overview</h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">A Multi-Purpose Drupal 7 theme powered by&nbsp;<a href="http://twitter.github.io/bootstrap/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Twitter Bootstrap</a>&nbsp;and&nbsp;<a href="http://fortawesome.github.io/Font-Awesome/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Font Awesome</a></span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">. Expressa features a fully responsive design, easy to use theme settings and follows Drupal coding standards. For theme support that cannot be found in this documentation, please visit our&nbsp;</span><a href="http://refaktorthemes.com/support" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(51, 102, 153); text-decoration: none; cursor: pointer; -webkit-text-size-adjust: none; line-height: 24px;">support forum</a><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">. Once you have registered please contact us via our&nbsp;</span><a href="http://themeforest.net/user/refaktor" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(51, 102, 153); text-decoration: none; cursor: pointer; -webkit-text-size-adjust: none; line-height: 24px;" target="_blank">ThemeForest author page</a><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px; -webkit-text-size-adjust: none;">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">with your forum username so you can be granted posting rights.</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; -webkit-text-size-adjust: none;">Given the somewhat complex nature of the modules used to power an eCommerce theme, if you are not familiar with them already we highly recommend you perform the full demo installation so you can become familiar with them.&nbsp;</span></p>
+</section>
+<section id="installation">
+	<h3>Installation</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; -webkit-text-size-adjust: none;">There are several ways Expressa can be installed. For existing sites that already have content, the first method will only involve the installation and activation of the theme. The second option includes a full Drupal 7 install with the same SQL database file used to create the theme demo. Please choose which installation method works best for you and follow the instructions.</span></p>
+<h3 style="margin: 24px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 26px; font-family: Voces, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; line-height: 48px; color: rgb(0, 0, 0);">
+	Theme Only</h3>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none;">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0); line-height: 24px;">Option 1:</span></p>
+<ul style="margin: 0px 0px 24px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 24px; -webkit-text-size-adjust: none; color: rgb(0, 0, 0);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Visit yourdomain.com/admin/appearance/install</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Upload the expressa.zip file</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Enable and set to default</li>
+</ul>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); -webkit-text-size-adjust: none;">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0); line-height: 24px;">Option 2:</span></p>
+<ul style="margin: 0px 0px 24px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 24px; -webkit-text-size-adjust: none; color: rgb(0, 0, 0);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Extract the expressa.zip file and upload via FTP to /sites/all/themes</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Visit yourdomain.com/admin/appearance/</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Scroll down to &quot;DISABLED THEMES&quot; and set and enable Expressa</li>
+</ul>
+<h3 style="margin: 24px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 26px; font-family: Voces, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; line-height: 48px; color: rgb(0, 0, 0);">
+	Full Drupal Install</h3>
+<p style="margin: 0px 0px 24px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 24px; -webkit-text-size-adjust: none; color: rgb(0, 0, 0);">
+	The following steps are designed for people that have experience manually installing Drupal and importing databases. If you do not feel comfortable performing these steps yourself, contact your server administrator for help.&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">NOTE</strong>&nbsp;this option is for a completely new Drupal install. Do not import the provided SQL file into an existing Drupal database or you will lose all of your data!</p>
+<ol style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 24px; -webkit-text-size-adjust: none; color: rgb(0, 0, 0);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Create a database for this installation of Drupal and import the SQL file that came with the theme.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Follow&nbsp;<a href="http://drupal.org/documentation/install/settings-file" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(51, 102, 153); text-decoration: none; cursor: pointer;" target="_blank">these directions</a>&nbsp;to create the settings.php file. Save this file somewhere so you can copy it over to the Drupal installation we have provided.</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Copy the entire contents of the Drupal_7 folder to the location on your web server where you want your site to be accessed. If you want your primary domain to point to your install of Expressa, copy everything to the root folder. If you want your site to be accessed as a subsection of your domain (for example: yourdomain.com/drupal) then simply rename the Drupal_7 folder to the desired name and upload to the root of your server. Also be sure to copy over the settings.php file mentioned in the previous step</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Login to your site with the username&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">Steve</strong>&nbsp;and the password&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline;">admin</strong>&nbsp;and visit /admin/people to change the admin username and password. </li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: decimal;">
+		Go through the Drupal configuration found in /admin/config options and update all the necessary information to reflect your website. Also be sure to visit /admin/config/media/file-system and change the Temporary Directory.</li>
+</ol>
+</section>
+<section id="expressa_content_module">
+	<h3>Expressa Content Module</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; -webkit-text-size-adjust: none;">If you do not wish to perform the full demo install, we highly recommend that you use our Expressa Content module. This is a <a href="http://drupal.org/project/features" target="_blank">Features</a> module that will automatically create all the content types, fields, views and other profiles needed to utlize everything you see on the demo. It is also a good way to ensure you install all the necessary modules as they are all dependencies for the custom module.&nbsp;</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; -webkit-text-size-adjust: none;">Simply upload the expressa_content folder found in the root of the download files as well as all the modules found inside the drupal_7/sites/all/modules folder to the /sites/all/modules folder on your installation. Then once you activate the Expressa Content module you will be prompted to activate all the dependencies. Once the module is activated everything you need will be created and you can begin adding your own content/modifying the existing settings to your needs.</span></p>
+</section>
+<section id="sub_theme">
+	<h3>Sub-Theme</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-style: inherit; line-height: 24px; -webkit-text-size-adjust: none;">Expressa comes with a shell sub-theme called Expressa_sub that you can use to make customizations to the style and template structure of the parent theme without having to modify the parent theme itself. This is useful if you plan on updating the parent theme as we release updates on ThemeForest. If you performed the full install you will already see Bricks in the list of themes available. If you did the standalone install you can find the Bricks.zip file in the root of the download files and you can install it like any other theme.</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-style: inherit; line-height: 24px; -webkit-text-size-adjust: none;">There is an empty stylesheet already defined which is /css/custom.css (inside the sub-theme folder). Use this file to add all of the custom CSS that you plan on using. You can also copy any template file from the /expressa/templates folder into the /expressa_sub/templates folder and it will listen to the sub-themes template file first. This will allow you to update the parent theme as we make updates without losing your customizations. Just pay attention to the changelog and compare the parent theme files with yours and make any adjustments as needed.</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-style: inherit; line-height: 24px; -webkit-text-size-adjust: none;">You will need to configure the sub-themes theme settings separately from the parent theme&#39;s, so visit /admin/appearance/settings/expressa_sub to configure the theme settings for the sub-theme.</span></p>
+<section id="block_regions" style="padding-top: 70px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; -webkit-text-size-adjust: none;"></section>
+<p>
+	&nbsp;</p>
+</section>
+<section id="block_regions">
+	<h3>Block Regions</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; -webkit-text-size-adjust: none;">Expressa features 14 block regions where you can add your own custom content. Visit yourdomain.com/admin/structure/block to add your own content to the defined block regions. Press &quot;Add Block&quot; to create a new custom blog, or select an existing block from the Disabled list below the defined block regions.</span></p>
+<img src="./images/block-regions.png">
+</section>
+<section id="menu">
+	<h3>Menu</h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">To set up your menu visit /admin/structure/menu and begin editing the menu of your choice (typically &quot;Main Menu&quot;). Expressa features a block region called &quot;Menu&quot; which can be used to add a Drupal menu block. Visit /admin/structure/block to add your menu block to the &quot;Menu&quot; block region. For optimum menu performance we highly recommend the&nbsp;</span><a href="http://drupal.org/project/menu_block" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; -webkit-text-size-adjust: none; line-height: 24px;" target="_blank">Menu Block</a><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">&nbsp;module.&nbsp;</span></p>
+</section>
+<section id="modules">
+	<h3>Modules</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-style: inherit; line-height: 24px; -webkit-text-size-adjust: none;">For optimum use of Expressa we recommend the installation of the following modules which are used by the theme demo and are included with the theme download files:</span></p>
+<p>
+	<span style="font-family: inherit; font-size: 20px; font-style: inherit; color: rgb(56, 56, 56); -webkit-text-size-adjust: none;">Required</span></p>
+<p>
+	<a href="http://drupal.org/project/addressfield" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Address Field</a></p>
+<p>
+	<a href="http://drupal.org/project/commerce" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce</a></p>
+<p>
+	<a href="http://drupal.org/project/commerce_search_api" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce Search API</a></p>
+<p>
+	<a href="http://drupal.org/project/ctools" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;">CTools</a></p>
+<p>
+	<a href="http://drupal.org/project/entity" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Entity</a></p>
+<p>
+	<a href="http://drupal.org/project/Facetapi" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Facet API</a></p>
+<p>
+	<a href="http://drupal.org/project/jquery_colorpicker" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">jQuery Colorpicker</a></p>
+<p>
+	<a href="http://drupal.org/project/jquery_update" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">jQuery Update</a></p>
+<p>
+	<a href="http://drupal.org/project/libraries" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Libraries</a></p>
+<p>
+	<a href="http://drupal.org/project/rules" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Rules</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api_db" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API Database Search</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api_ranges" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API Ranges</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api_sorts" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API Sorts</a></p>
+<p>
+	<a href="http://drupal.org/project/token" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Token</a></p>
+<p>
+	<a href="http://drupal.org/project/views" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Views</a></p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="font-family: inherit; font-size: 20px; font-style: inherit; color: rgb(56, 56, 56); -webkit-text-size-adjust: none;">Optional</span></p>
+<p>
+	<a href="http://drupal.org/project/admin_menu" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Admin Menu</a></p>
+<p>
+	<a href="http://drupal.org/project/commerce_auto_product_display" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce Auto Product Display</a></p>
+<p>
+	<a href="http://drupal.org/project/commerce_paypal" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce Paypal</a></p>
+<p>
+	<a href="http://drupal.org/project/commerce_stripe" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce Stripe</a></p>
+<p>
+	<a href="http://drupal.org/project/commerce_wishlist" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce Wishlist</a></p>
+<p>
+	<a href="http://drupal.org/project/contact_form_blocks" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Contact Form Blocks</a></p>
+<p>
+	<a href="http://drupal.org/project/features" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Features</a></p>
+<p>
+	<a href="http://drupal.org/project/fivestar" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Fivestar</a></p>
+<p>
+	<a href="http://drupal.org/project/menu_block" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Menu Block</a></p>
+<p>
+	<a href="http://drupal.org/project/module_filter" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Module Filter</a></p>
+<p>
+	<a href="http://drupal.org/project/navigation404" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Navigation 404</a></p>
+<p>
+	<a href="http://drupal.org/project/panels" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Panels</a></p>
+<p>
+	<a href="http://drupal.org/project/pathauto" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Pathauto</a></p>
+<p>
+	<a href="http://drupal.org/project/prev_next" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Previous/Next API</a></p>
+<p>
+	<a href="http://drupal.org/project/voting_api" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Voting API</a></p>
+<section id="theme_settings" style="padding-top: 70px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; -webkit-text-size-adjust: none;"></section>
+<p>
+	&nbsp;</p>
+</section>
+<section id="theme_settings">
+	<h3>Theme Settings</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-style: inherit; line-height: 24px; -webkit-text-size-adjust: none;">Expressa includes a powerful set of theme settings that allow you to configure many aspects of your site which can be accessed by visiting yourdomain.com/admin/appearance/settings/expressa. All options have default values set, but you should go through each one and adjust them to your liking.</span></p>
+<section id="theme_settings" style="padding-top: 70px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; -webkit-text-size-adjust: none;">
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+	&nbsp;</p>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em;">
+	&nbsp;</p>
+</section>
+<p>
+	&nbsp;</p>
+</section>
+<section id="commerce">
+	<h3>Commerce</h3><hr class="notop">
+<p>
+	<span style="-webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0); line-height: 24px;">Expressa supports the&nbsp;</span><a href="http://drupal.org/project/commerce" style="-webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; line-height: 24px;" target="_blank">Drupal Commerce</a><span style="-webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0); line-height: 24px;">&nbsp;module, a powerful eCommerce framework for building online stores. Drupal Commerce has a complete set of&nbsp;</span><a href="http://www.drupalcommerce.org/documentation" style="-webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer; line-height: 24px;" target="_blank">documentation</a><span style="-webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(0, 0, 0); line-height: 24px;">&nbsp;which we highly recommend reading if you have never used DC before. We will go over some of the basics and highlight the aspects of the theme that enhance DC and how you can use them on your site.&nbsp;</span></p>
+<h4 id="commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px"intro_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px;">Intro</span></h4>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; -webkit-text-size-adjust: none;">
+	<font color="#000000" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="3"><span style="line-height: 24px;">All of the Commerce administration links you will need can be found under /admin/commerce. There you can manage customer profiles and orders, add/edit/remove products, and set global options. Under the &quot;Products&quot; link you will see a tab that reads &quot;Product Types&quot; which is where you can create your own product types.&nbsp;</span></font></p>
+<h4 id="commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px"product_display_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px;">Product Display</span></h4>
+
+<img src="./images/product-display-fields.png">
+
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">In order to display your products as node content, a custom content type with a product reference field type has to be used. We recommend using the &quot;Inline Entity Form - Multiple Values&quot; widget type with the Product Reference field as this allows you to create multiple variations of the same product. For example, you can have a single item called Men&#39;s T-Shirt and have several varations with different colors and sizes.&nbsp;</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">All products in the Expressa demo use the Product Display content type, which uses the node--product-display.tpl tempalte file.&nbsp;</span></p>
+<h4 id="commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"shopping_cart_block_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Shopping Cart Block</span></h4>
+<p>
+	<font color="#000000" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="3"><span style="line-height: 24px; -webkit-text-size-adjust: none;">Expressa includes a customized Shopping Cart block which appears in the header and scroll menu if enabled. This places all items currently in the cart inside a compact drop down window where users can review the contents, delete individual items, and view the cart overview and checkout pages. The demo uses the Shopping Cart block inside the Header Right Top Right block region.</span></font></p>
+<h4 id="commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"store_page_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Store Page</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Expressa&#39;s store page is a custom search results Views page that uses the <a href="http://drupal.org/project/search_api" target="_blank">Search API</a>&nbsp;and <a href="http://drupal.org/project/faceted_search" target="_blank">Faceted Search</a> modules. This allows the user to be able to dynamically refine product searches by things like brand, category, price, etc. &nbsp;If you are unfamiliar with Search API and Faceted Search and how to properly configure them, we highly recommend you use the Expressa Content features module to automatically create all the views and profiles for you. This will give you a good starting point to work off of. For some more information about the Search API refer to that section of this documentation.</span></p>
+<h4 id="commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"payment_methods_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Payment Methods</span></h4>
+<p>
+	<font color="#000000" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="3"><span style="line-height: 24px; -webkit-text-size-adjust: none;">There are many <a href="http://www.drupalcommerce.org/faq/payment-methods" target="_blank">payment methods</a> available for Drupal Commerce that come in the form of Modules. Each has their own set of configuration options and are relatively straight forward to implement. Visit the <a href="http://www.drupalcommerce.org/faq/payment-methods" target="_blank">following page</a> for a list of the modules that are available.&nbsp;</span></font></p>
+<h4 id="commerce_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"product_carousel_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Product Carousel</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Expressa features custom block view templates which display products in a carousel. The carousels are touch friendly for mobile devices and are a great way to show off products on your website. Either use the Expressa Content features module provided in the download files or look inside the /views_exports for code you can use to import these views on your site.&nbsp;</span></p>
+</section>
+<section id="search_api">
+	<h3>Search API</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; -webkit-text-size-adjust: none;">Drupal&#39;s</span><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">&nbsp;</span><a href="http://drupal.org/project/search_api" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;" target="_blank">Search API</a><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">&nbsp;and&nbsp;</span><a href="http://drupal.org/project/faceted_search" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;" target="_blank">Faceted Search</a><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">&nbsp;modules are very powerful tools that, when combined with Drupal Commerce, give users the ability to filter their product searches by things such as price, category, brand, etc. The configuration of these modules can be a bit confusing at first, but once you understand the basics their uses become almost infinite. We will do our best to introduce you to these basic concepts, but if you are unfamiliar with these modules the <a href="http://munich2012.drupal.org/program/sessions/building-amazing-searches-search-api-and-facet-api" target="_blank">following presentation</a> from Drupalcon Munich is a great introduction.&nbsp;</span></p>
+<h4 id="search_api_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"modules_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Modules</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">The following modules are required:</span></p>
+<p>
+	<a href="http://drupal.org/project/commerce_search_api" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Commerce Search API</a></p>
+<p>
+	<a href="http://drupal.org/project/Facetapi" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Facet API</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api_db" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API Database Search</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api_ranges" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API Ranges</a></p>
+<p>
+	<a href="http://drupal.org/project/search_api_sorts" style="font-family: inherit; font-style: inherit; line-height: 1.5em; -webkit-text-size-adjust: none; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration: none; cursor: pointer;" target="_blank">Search API Sorts</a></p>
+<h4 id="search_api_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"search_server_and_index_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Search Server and Index</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Once you have the required modules installed, the first step is to visit /admin/config/search/search_api to set up your search server and index. Press the Add server button, give it a title and choose &quot;Database service&quot; from the Service class dropdown option. We also recommend setting the minimum number of words required to be indexed to &quot;1&quot; to ensure everything related to your store is indexed.&nbsp;</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">The next step (and the more complex of the two) is setting up your search index. This creates all the information needed to power the store page and faceted search functionality. To begin press the Add index button and give your index a title (we recommend Product Display, note the name as it will be used later on on the Store view page).&nbsp;</span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">If you have installed all the required modules there will be a total of 6 edit menus available for your index: status, settings, fields, workflow, facets and sorts. </span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Status is where you can disable the index entirely, re-index the content, or completely clear the current contents of your index. </span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Settings is where you can change things like the name, the server used, whether or not to index items immedietly, etc. </span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Fields is where you tell exactly what content you want indexed. We recommend the you enable the following fields to be indexed: content type, title, date created, and all the product variation elements you want to be used in your facet search.</span></p>
+<p>
+	&nbsp;</p>
+<p class="p1">
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Workflow is a collection of options that will alter the way the index content is handled. We recommend that you enable the Product Display filter and the Search API Ranges. When you enable the Search API Ranges a callback setting option will appear below the Data Alterations options. From there, check off the Product Variations &gt;&gt; Price &gt;&gt; Amount (decimal). This will allow you to use the Ranges display widget on your price facet.</span></p>
+<p class="p1">
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Facets is where you enable and configure the facet blocks themselves. Each facet you enable has their own set of configuration options which you can go through and set to your liking. In most instances the defaults will be sufficient. These blocks will now be available to add to the sidebar region and ordered to your liking. These will only show up on the store page.&nbsp;</span></p>
+<p class="p1">
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Sorts is where you can configure the Search Sorts block. These render as button links that will sort the products in ascending/descending order by the values you select.&nbsp;</span></p>
+<h4 id="search_api_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"store_view_page_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Store View Page</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">The final step is to create your store view page. We recommend you use the code found inside the /views_exports folder to import the view with the correct settings.&nbsp;</span></p>
+</section>
+<section id="image_slider">
+	<h3>Image Slider</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Expressa&#39;s Image Slider is powered by Flexslider and is easy to configure. It uses a custom content type called &quot;Image Slider&quot; with two fields: field_slider_image (image field) and field_slider_caption (long text). </span></p>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">The slider itself is a view block which you can import using the /views_exports/image_slider.txt export code.&nbsp;</span></p>
+</section>
+<section id="highlight">
+	<h3>Highlight </h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Expressa also includes support for a side-wide highlight section. To use this, simply use the following syntax inside a block and place it inside the Highlight block region:</span></p>
+<pre class="brush: html">
+&lt;div class=&quot;container&quot;&gt; 
+ &lt;div class=&quot;row-fluid&quot;&gt;
+    &lt;div id=&quot;highlight-content&quot; class=&quot;span9&quot;&gt;
+      This is a site-wide call to action block region!
+    &lt;/div&gt;
+    &lt;div id=&quot;highlight-button&quot; class=&quot;span3&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;&lt;div class=&quot;button-wrap&quot;&gt;BUY NOW&lt;/div&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>	
+</section>
+<section id="portfolio">
+	<h3>Portfolio</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Expressa&#39;s Portfolio offers an area to showcase projects or other elements of your site that may not be related to your store. Custom view templates allow you to showcase your portfolio content in a nicely organized grid that can be sorted via filters generated by taxonomy terms. As with the other elements of the theme, if you are not using the full demo we recommend you use the Expressa Content module which will automatically create the content type, fields, taxonomy vocabulary/terms and views necessary to fully utilize the Portfolio. We will also go over the different areas of the portfolio in detail below:</span></p>
+<p>
+	&nbsp;</p>
+<h4 id="portfolio_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"portfolio_categories_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Portfolio Categories</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">To make use of the filters on the view page, you need to set up a taxonomy vocabulary called Portfolio Categories. From there you can add as many different terms as you will need for your portfolio. This will also be used as a term reference field type with the Portfolio content type which will allow you to assign your items to their respective categories.</span></p>
+<p>
+	&nbsp;</p>
+<h4 id="portfolio_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"content_type_and_fields_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Content Type and Fields</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">The theme utilizes a content type called &quot;Portfolio&quot; so if you are configuring everything manually make sure you use the same content type name. Reference the image below for all the fields that are required:</span></p>
+	
+<img src="./images/portfolio-fields.png">
+	
+<h4 id="portfolio_span_style"color_rgb_0,_0,_0_font_family_'helvetica_neue',_helvetica,_arial,_sans_serif_font_size_medium_line_height_24px_webkit_text_size_adjust_none"views_span"><span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Views</span></h4>
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">The Expressa demo uses three separate views for the portfolio: a page view, a block view for the filters and a block view for the related items carousel that appears on the single portfolio items page. If you are setting up your views manually, please use the export code found inside the /views_exports folder in the root of the theme/download files. The Portfolio Filters view is called in the Header of the Portfolio page view as a global view area.&nbsp;</span></p>
+</section>
+<section id="widgets">
+	<h3>Widgets</h3><hr class="notop">
+<p>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Expressa has built-in support for several widgets, below is the markup you will need to use them on your site in blocks and node content.</span>
+<br>
+<br>	
+<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;"><strong>Update:</strong> As of June 13th the old 1.0 version of the Twitter API was discontinued. Because of this some changes had to be made to this section and some additional settings are needed for it to function correctly. Visit <a href="https://dev.twitter.com/apps">https://dev.twitter.com/apps</a> and login with your Twitter account. You will have to make an App in order to receive the necessary OAuth keys required for the Twitter feed. Once you have them you can enter them into the theme settings under the Twitter tab.</span>	
+</p>
+<h3>
+	<font color="#000000" face="Helvetica Neue, Helvetica, Arial, sans-serif" size="3"><span style="line-height: 24px; -webkit-text-size-adjust: none;">Twitter</span></font></h3>
+<pre class="brush: html">
+&lt;div class='tweet query'&gt;&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+     jQuery(document).ready(function ($) {
+	$(&quot;.tweet&quot;).tweet({
+        modpath: '&lt;?php global $root; echo $root;?&gt;/includes/twitter/',
+	username: &quot;envato&quot;,
+	avatar_size: 34,
+	count: 3,
+	loading_text: &quot;loading tweets...&quot;
+      });
+    });
+  &lt;/script&gt;
+</pre>
+<h3>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Flickr</span></h3>
+<pre class="brush: html">
+&lt;script type=&quot;text/javascript&quot;&gt;
+jQuery(document).ready(function ($) {
+$('#flickr_widget').jflickrfeed({
+  limit: 6,
+  qstrings: {
+    id: '39415781@N06'
+  },
+  itemTemplate: '&lt;li&gt;&lt;a href=&quot;{{image_b}}&quot;&gt;&lt;img src=&quot;{{image_s}}&quot; alt=&quot;{{title}}&quot; /&gt;&lt;/a&gt;&lt;/li&gt;'
+});
+});
+&lt;/script&gt;  
+
+&lt;ul id=&quot;flickr_widget&quot; class=&quot;thumbs&quot;&gt;&lt;/ul&gt;
+</pre>
+
+<h3>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Google Maps</span></h3>
+<pre class="brush: html">
+</pre>
+<div>
+	<pre class="brush: html">
+&lt;div id=&quot;google_map&quot;&gt;
+  &lt;iframe width=&quot;1080&quot; height=&quot;370&quot; src=&quot;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=900+Bagby+St+Houston,+TX+77002&amp;amp;sll=33.687,-117.774252&amp;amp;sspn=0.324522,0.682526&amp;amp;t=m&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=900+Bagby+St,+Houston,+Harris,+Texas+77002&amp;amp;ll=29.761779,-95.370008&amp;amp;spn=0.003725,0.012864&amp;amp;z=17&amp;amp;iwloc=A&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;      
+&lt;/div&gt;
+	</pre>	
+<h3>
+	<span style="color: rgb(0, 0, 0); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: medium; line-height: 24px; -webkit-text-size-adjust: none;">Accordion</span></h3>
+<pre class="brush: html">
+</pre>
+<div>
+	<pre class="brush: html">
+&lt;script type=&quot;text/javascript&quot;&gt;	
+  jQuery(document).ready(function ($) {
+    $('ul#quotes').quote_rotator();
+  });
+&lt;/script&gt; 
+
+&lt;ul id=&quot;quotes&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;Quote text goes here&lt;/p&gt;
+    - John Doe
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Here's another quote&lt;/p&gt;
+    - John Doe
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+	</pre>
+</section>
+<section id="thank_you">
+	<h3>Thank You</h3><hr class="notop">
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">Thank you for purchasing Expressa, we hope you enjoy using it as much as we enjoyed making it! </span></p>
+<p>
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">For theme support that cannot be found in this documentation, please visit our&nbsp;</span><a href="http://refaktorthemes.com/support" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(51, 102, 153); text-decoration: none; cursor: pointer; -webkit-text-size-adjust: none; line-height: 24px;">support forum</a><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">. Once you have registered please contact us via our&nbsp;</span><a href="http://themeforest.net/user/refaktor" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: rgb(51, 102, 153); text-decoration: none; cursor: pointer; -webkit-text-size-adjust: none; line-height: 24px;" target="_blank">ThemeForest author page</a><span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; line-height: 18px; -webkit-text-size-adjust: none;">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; -webkit-text-size-adjust: none; color: rgb(0, 0, 0); line-height: 24px;">with your forum username so you can be granted posting rights.</span></p>
+</section>
+
+	</div>
+</body>
+</html>
